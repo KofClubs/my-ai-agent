@@ -1,0 +1,17 @@
+github:
+  token: "ghp_xxx_or_github_pat"
+  repo: "prometheus/prometheus"
+
+run:
+  days: 7
+  branch: "main"
+  max_commits: 500
+  out: "./out"
+  mode: "auto"
+
+openai:
+  api_key: "sk-xxx"
+  base_url: "https://idealab.alibaba-inc.com/api/openai/v1"
+  model: "qwen3-coder-plus"
+
+
